@@ -3,7 +3,7 @@ import 'package:mvvm_fruit_hub/features/home/data/repositories/products_reposito
 import 'package:mvvm_fruit_hub/features/home/presentation/cubits/get_products_cubit/get_products_state.dart';
 
 class GetProductsCubit extends Cubit<GetProductsState> {
-  GetProductsCubit({required ProductsRepo productsRepo})
+  GetProductsCubit({required ProductsRepository productsRepo})
     : _productsRepo = productsRepo,
       super(
         GetProductsState(
@@ -13,7 +13,7 @@ class GetProductsCubit extends Cubit<GetProductsState> {
           products: [],
         ),
       );
-  final ProductsRepo _productsRepo;
+  final ProductsRepository _productsRepo;
   Future<void> getAllProducts() async {
     var result = await _productsRepo.getProducts();
 

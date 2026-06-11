@@ -6,10 +6,10 @@ import 'package:mvvm_fruit_hub/features/home/data/repositories/products_reposito
 import 'package:mvvm_fruit_hub/features/home/data/services/database_service.dart';
 import 'package:mvvm_fruit_hub/features/home/domain/models/products/product_model.dart';
 
-class ProductsRepoImple implements ProductsRepo {
+class ProductsRepositoryImplementation implements ProductsRepository {
   final DatabaseService _databaseService;
 
-  ProductsRepoImple({required DatabaseService databaseService})
+  ProductsRepositoryImplementation({required DatabaseService databaseService})
     : _databaseService = databaseService;
 
   @override

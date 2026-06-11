@@ -4,13 +4,13 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:mvvm_fruit_hub/core/errors/custom_exception.dart';
 import 'package:mvvm_fruit_hub/core/errors/failures.dart';
 import 'package:mvvm_fruit_hub/core/errors/server_failure.dart';
-import 'package:mvvm_fruit_hub/features/auth/data/repositories/auth_repo.dart';
+import 'package:mvvm_fruit_hub/features/auth/data/repositories/auth_repository/auth_repository.dart';
 import 'package:mvvm_fruit_hub/features/auth/data/services/auth_service.dart';
 
-class AuthRepoImplementation implements AuthRepo {
+class AuthRepositoryImplementation implements AuthRepository {
   final AuthService authService;
 
-  AuthRepoImplementation({required this.authService});
+  AuthRepositoryImplementation({required this.authService});
 
   @override
   Future<Either<Failure, String>> signIn({
