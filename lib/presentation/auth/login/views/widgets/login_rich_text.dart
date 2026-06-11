@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mvvm_fruit_hub/domain/models/utils/app_colors.dart';
 import 'package:mvvm_fruit_hub/domain/models/utils/app_styles.dart';
-import 'package:mvvm_fruit_hub/ui/auth/register/views/register_view.dart';
+import 'package:mvvm_fruit_hub/presentation/auth/register/views/register_view.dart';
 
 class LoginRichText extends StatelessWidget {
   const LoginRichText({super.key});

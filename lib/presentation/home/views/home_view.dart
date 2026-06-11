@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mvvm_fruit_hub/ui/home/views/widgets/home_view_bloc_provider.dart';
-import 'package:mvvm_fruit_hub/ui/home/views/widgets/home_view_body.dart';
+import 'package:mvvm_fruit_hub/presentation/home/views/widgets/home_view_bloc_provider.dart';
+import 'package:mvvm_fruit_hub/presentation/home/views/widgets/home_view_body.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});

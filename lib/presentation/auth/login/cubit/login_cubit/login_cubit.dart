@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mvvm_fruit_hub/data/repositories/auth_repository/auth_repository.dart';
-import 'package:mvvm_fruit_hub/ui/auth/login/cubit/login_cubit/login_state.dart';
+import 'package:mvvm_fruit_hub/presentation/auth/login/cubit/login_cubit/login_state.dart';
 
 class LoginCubit extends Cubit<LoginState> {
   LoginCubit({required AuthRepository authRepo})

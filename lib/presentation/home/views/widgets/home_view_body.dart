@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:mvvm_fruit_hub/ui/home/cubit/get_products_cubit/get_products_cubit.dart';
-import 'package:mvvm_fruit_hub/ui/home/views/widgets/custom_fruit_item.dart';
+import 'package:mvvm_fruit_hub/presentation/home/cubit/get_products_cubit/get_products_cubit.dart';
+import 'package:mvvm_fruit_hub/presentation/home/views/widgets/custom_fruit_item.dart';
 
 class HomeViewBody extends StatefulWidget {
   const HomeViewBody({super.key});

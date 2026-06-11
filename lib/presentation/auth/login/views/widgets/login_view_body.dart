@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:mvvm_fruit_hub/ui/core/functions/show_snack_bar.dart';
-import 'package:mvvm_fruit_hub/ui/auth/login/cubit/login_cubit/login_cubit.dart';
-import 'package:mvvm_fruit_hub/ui/auth/login/cubit/login_cubit/login_state.dart';
-import 'package:mvvm_fruit_hub/ui/core/widgets/custom_button.dart';
-import 'package:mvvm_fruit_hub/ui/core/widgets/custom_password_field.dart';
-import 'package:mvvm_fruit_hub/ui/core/widgets/custom_text_field.dart';
-import 'package:mvvm_fruit_hub/ui/auth/login/views/widgets/login_rich_text.dart';
-import 'package:mvvm_fruit_hub/ui/home/views/home_view.dart';
+import 'package:mvvm_fruit_hub/presentation/core/functions/show_snack_bar.dart';
+import 'package:mvvm_fruit_hub/presentation/auth/login/cubit/login_cubit/login_cubit.dart';
+import 'package:mvvm_fruit_hub/presentation/auth/login/cubit/login_cubit/login_state.dart';
+import 'package:mvvm_fruit_hub/presentation/core/widgets/custom_button.dart';
+import 'package:mvvm_fruit_hub/presentation/core/widgets/custom_password_field.dart';
+import 'package:mvvm_fruit_hub/presentation/core/widgets/custom_text_field.dart';
+import 'package:mvvm_fruit_hub/presentation/auth/login/views/widgets/login_rich_text.dart';
+import 'package:mvvm_fruit_hub/presentation/home/views/home_view.dart';
 
 class LoginViewBody extends StatefulWidget {
   const LoginViewBody({super.key});

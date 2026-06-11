@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mvvm_fruit_hub/ui/auth/login/views/widgets/login_view_bloc_provider.dart';
-import 'package:mvvm_fruit_hub/ui/auth/login/views/widgets/login_view_body.dart';
+import 'package:mvvm_fruit_hub/presentation/auth/login/views/widgets/login_view_bloc_provider.dart';
+import 'package:mvvm_fruit_hub/presentation/auth/login/views/widgets/login_view_body.dart';
 
 class LoginView extends StatelessWidget {
   const LoginView({super.key});
